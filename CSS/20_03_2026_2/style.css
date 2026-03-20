@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Fuente Personalizada";
+    src: url(./fonts/Dancing.ttf);
+}
+
+.hijo p {
+  font-size: 40px;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  text-decoration:line-through;
+  letter-spacing: 10px;
+  color: rgb(57, 57, 57);
+  font-family: "Fuente Personalizada", cursive;
+}
