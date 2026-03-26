@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 600px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+div {
+  border: 2px solid black;
+  background-color: crimson;
+  color: white;
+  width: 100px;
+  height: 100px;
+  flex-grow: 1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.especial {
+  flex-grow: 2;
+}
