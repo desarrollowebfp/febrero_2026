@@ -10,7 +10,7 @@ const movil = {
 
 // CRUD -> Create Read Update Delete -> Crear Leer Actualizar Borrar
 
-// Leer
+// Acceder - Leer
 console.log(movil.marca);
 console.log(movil["marca"]);
 
