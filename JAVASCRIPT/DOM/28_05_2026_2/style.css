@@ -1,0 +1,33 @@
+body {
+  height: 200vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  background-color: #cee5ce;
+  color: #212438;
+  transition: 0.5s;
+}
+
+body.dark {
+  background-color: #211666;
+  color: #e5dcec;
+}
+
+h2,
+h3 {
+  position: fixed;
+  right: 20px;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  color: black;
+}
+
+h2 {
+  top: 5px;
+}
+
+#btn_tema {
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+}
