@@ -1,0 +1,14 @@
+section ul {
+	list-style-type: none;
+	display: flex;
+	gap: 20px;
+	padding: 20px;
+	flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+	width: 60px;
+	height: 60px;
+}
